@@ -75,30 +75,16 @@ def multi_corr(ret_list_pair, winlen = 50, N = 100):
 
 
     
+def main():   
+    # specify start/end dates
+    start_date='2017-07-01'
+    end_date='2020-3-30'
+    n = 5
+    ret_list = random_stocks_return(start_date, end_date, n)
     
-# specify start/end dates
-start_date='2017-07-01'
-end_date='2020-3-30'
-n = 5
-ret_list = random_stocks_return(start_date, end_date, n)
+    multi_corr(ret_list.iloc[:,0:2])
 
-multi_corr(ret_list.iloc[:,0:2])
 
-# calculate portfolio risk based on covariance matrix
-num_ports = 100
-num_assets = 5
-weights = np.random.random([num_ports,num_assets])
-weights = weights / (np.mat(np.sum(weights, axis = 1)).T* np.ones([1,num_assets]))
 
-cov_matrix = np.cov(ret_list.T)
-
-risk_matrix = weights * cov_matrix * weights.T
-ports_risks = np.diag(risk_matrix)
-
-plt.figure()
-plt.hist(ports_risks, bins = 20)
-plt.show()
-
-print('The average risks of components stocks is: ' + str(np.mean(np.diag(cov_matrix))))
-print('The average risks of portfolios is: ' + str(np.mean(ports_risks)))
-  
+if __name__ == '__main__':
+    main()
