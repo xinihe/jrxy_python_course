@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Apr  4 23:50:16 2020
-
 @author: NI HE
 """
 
@@ -13,6 +12,9 @@ from datetime import datetime
 from iexfinance.stocks import get_historical_data
 import matplotlib.pyplot as plt
 from scipy import stats
+
+tushare_token = '1c8b06446534ae510c8c68e38fc248b99f89ac3814cb55645ae2be72'
+pro = ts.pro_api(tushare_token)
 
 def collect_stock_data(code, start_date, end_date, is_chinese = 1):
     my_token = 'pk_20fe28167fc34f56adba1d341120cb0e' 
@@ -38,6 +40,13 @@ def collect_stock_data(code, start_date, end_date, is_chinese = 1):
         
     return stk_data
 
+def collect_stock_data_pro(code, start_date, end_date):
+    try:
+        stk_data = pro.daily(ts_code = code, start_date = start_date, end_date = end_date)
+    except:
+        print('Stock '+code+' could not collect from Tushare Pro')
+    return stk_data
+
 def tick2ret(price):
     return 100 * (price - price.shift(1)).div(price.shift(1))[1:]
 
@@ -45,12 +54,27 @@ def tick2ret(price):
 def random_pick_stocks_code(n):
     industry = ts.get_industry_classified()
     ind = [x[0] for x in list(np.random.randint(low = 0, high = len(industry), size = (n, 1)))]
-    return industry.iloc[ind]['code']
+    return industry.iloc[ind]['code'] 
+
+def random_pick_stocks_code_pro(n): 
+    stock_list = pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,area,industry,list_date')
+    ind = [x[0] for x in list(np.random.randint(low = 0, high = len(stock_list), size = (n, 1)))]
+    return stock_list.iloc[ind]['ts_code'] 
 
 def random_stocks_return(start_date, end_date, n):
     ret_list = pd.DataFrame()
     for c in random_pick_stocks_code(n):
         st = collect_stock_data(c,start_date,end_date)    
+        st_ret = tick2ret(st['close']).to_frame(name = c) 
+        ret_list = pd.concat([ret_list, st_ret], axis = 1 ,join = 'outer', ignore_index = False, sort = False)
+    ret_list.dropna(axis = 0, how = 'any', inplace = True)
+    return ret_list
+
+def random_stocks_return_pro(start_date, end_date, n):
+    ret_list = pd.DataFrame()
+    for c in [i for i in random_pick_stocks_code_pro(n)]:
+        st = collect_stock_data_pro(c,start_date,end_date)
+        st.set_index(["trade_date"], inplace=True)
         st_ret = tick2ret(st['close']).to_frame(name = c) 
         ret_list = pd.concat([ret_list, st_ret], axis = 1 ,join = 'outer', ignore_index = False, sort = False)
     ret_list.dropna(axis = 0, how = 'any', inplace = True)
