@@ -22,7 +22,7 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 
 `Basic session` 
 
-1. Numpy and matrix operations
+1. Numpy and matrix operations ([slide and code](/BasicSession/numpy_learn.ipynb))
 2. Matplotlib and image processing 
 3. Pandas and data processing
 
