@@ -20,7 +20,7 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 
 ### Tentative Curriculum
 
-`Review session` 
+`Basic session` 
 
 1. Numpy and matrix operations
 2. Matplotlib and image processing 
@@ -38,3 +38,6 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, candle chart, etc
 4. Statistics Tests
 5. Nature Language Processing:  Financial sentiment analysis
+
+
+
