@@ -23,21 +23,21 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 `Basic session` 
 
 1. Numpy and matrix operations ([slide and code](/BasicSession/numpy_learn.ipynb))
-2. Matplotlib and image processing 
-3. Pandas and data processing
+2. Matplotlib and image processing ([slide and code](/BasicSession/matplotlib_learn.ipynb))
+3. Pandas and data processing ([slide and code](/BasicSession/pandas_learn.ipynb))
 
-`Data session`
+`Data Session`
 
-1. Data base (SQL and NoSQL):  [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/)  (You can use [MariaDB](https://mariadb.org/) as an alternative of MySQL)
-2. API and Data Retrieval:  [Tushare](http://www.tushare.org )
+1. Data base (SQL and NoSQL):  [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/)  (You can use [MariaDB](https://mariadb.org/) as an alternative of MySQL)  ([slide and code](/BasicSession/pandas_learn.ipynb))
+2. API and Data Retrieval:  [Tushare](http://www.tushare.org ) ([slide and code](/DataSession/API_and_Data_Retrieval.ipynb))
 
 `Program Session`
 
-1. Web Crawler I:  Financial News from [雪球](https://xueqiu.com/)
-2. Web Crawler II:  Daily stock price from [网易财经](https://money.163.com/)
-3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, candle chart, etc
-4. Statistics Tests
-5. Nature Language Processing:  Financial sentiment analysis
+1. Web Crawler I:  Financial News from [雪球](https://xueqiu.com/)   ([slide and code](/BasicSession/pandas_learn.ipynb))
+2. Web Crawler II:  Daily stock price from [网易财经](https://money.163.com/)  ([slide and code](/BasicSession/pandas_learn.ipynb))
+3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, candle chart, etc ([slide and code](/BasicSession/pandas_learn.ipynb))
+4. Statistics Tests ([slide and code](/BasicSession/pandas_learn.ipynb))
+5. Nature Language Processing:  Financial sentiment analysis ([slide and code](/BasicSession/pandas_learn.ipynb))
 
 
 
