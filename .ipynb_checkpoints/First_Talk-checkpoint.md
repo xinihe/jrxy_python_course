@@ -282,4 +282,4 @@ MariaDB可以在多种平台上使用，Windows平台的下载版本 MariaDB 10.
     
     
    如果你想学习，我给大家提供一些教材
-   [链接](https://github.com/quantitiveFund/pyQuant/tree/master/Learning/MachineLearning/Reading)
+   [链接](https://github.com/quantitiveFund/pyQuant/tree/master/Learning/MachineLearning/Reading)。但是如果你没有学会Coding，请回去先学好代码，否则离开代码实现去谈算法是没有意义的！
