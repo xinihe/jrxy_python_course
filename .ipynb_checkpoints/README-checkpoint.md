@@ -22,7 +22,7 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 
 0. First Talk: What you need to prepare ([slide](First_Talk.md))
 
-`Basic session` 
+`Preliminary Session` 
 
 1. Numpy and matrix operations ([slide and code](/BasicSession/numpy_learn.ipynb))
 2. Matplotlib and image processing ([slide and code](/BasicSession/matplotlib_learn.ipynb))
@@ -41,5 +41,18 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 4. Statistics Tests ([slide and code](/BasicSession/statistics_learn.ipynb))
 5. Nature Language Processing:  Financial sentiment analysis ([slide and code](/BasicSession/nlp_learn.ipynb))
 
+`Advanced Session`
+
+1. Unsupervised Learning:
+   K-means Clustering in Fund feature detecting
+   
+   Genetic Algorithm for early warning
+   
+ 
+2. Supervised Learning:
 
 
+3. Reinforcement Learning:
+   Multi-arm Bandit in portfolio selection
+   
+4. Nature Language Processing:
