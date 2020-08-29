@@ -14,6 +14,8 @@
     
      下载使用：
     如果你嫌官网下载太慢,这里建议大家使用[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)，找到对应的anaconda版本和操作系统即可。
+    
+    >注意：建议大家下载稳定版本，最新版本可能存在BUG，Anaconda3-5.3.1版本就比较稳定。
 
     下载后按提示安装就可以了。
 
@@ -79,6 +81,8 @@
     - 支持Markdown，Python，R，LaTeX等任何文本文件
     - 增强notebook功能
     - 更多插件支持
+    
+    JupyterLab 目前的版本是1.0版本，如果你安装的是早先的Anaconda，你的JupyterLab版本可能过早，建议你可以使用 pip install jupyterlab --upgrade 来完成升级。
 
 
 
