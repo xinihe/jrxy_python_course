@@ -49,18 +49,19 @@ If you have any question, I would be approachable by email ni.he@qq.com.
     
 
 2. Unsupervised Learning:
-   1. K-means Clustering in Fund feature detecting
-   2. Genetic Algorithm for early warning
+   1. K-means Clustering (Fund feature detecting)
+   2. Genetic Algorithm  (early warning)
+   3. Self-Organizing Map ()
    
  
 3. Supervised Learning:
    1. Naive Bayes Classifier
-   2. Decision Tree
+   2. Decision Tree (Find the best indicator)
    3. K-nearest neighbor
 
 
 4. Reinforcement Learning:
-   1. Multi-arm Bandit in portfolio selection
+   1. Multi-Arm Bandit (portfolio selection)
    2. Q-learning
    
    
