@@ -1,6 +1,6 @@
 ## Python in Finance
 
-Applying Python in solving practical issues in finance.  Materials in this repo are designed for students taking my course 《Python在金融中的应用》. 
+Applying Python in solving practical issues in finance.  Materials in this repo are designed for students taking my course 《Python在金融中的应用》以及《基于机器学习的投资分析》. 
 
 If you have any question, I would be approachable by email ni.he@qq.com. 
 
@@ -41,18 +41,28 @@ If you have any question, I would be approachable by email ni.he@qq.com.
 4. Statistics Tests ([slide and code](/BasicSession/statistics_learn.ipynb))
 5. Nature Language Processing:  Financial sentiment analysis ([slide and code](/BasicSession/nlp_learn.ipynb))
 
-`Advanced Session`
+`ML Session`
 
-1. Unsupervised Learning:
-   K-means Clustering in Fund feature detecting
-   
-   Genetic Algorithm for early warning
+1. Basic
+   1. Learning Regression
+   2. Logistic Regression
+    
+
+2. Unsupervised Learning:
+   1. K-means Clustering in Fund feature detecting
+   2. Genetic Algorithm for early warning
    
  
-2. Supervised Learning:
+3. Supervised Learning:
+   1. Naive Bayes Classifier
+   2. Decision Tree
+   3. K-nearest neighbor
 
 
-3. Reinforcement Learning:
-   Multi-arm Bandit in portfolio selection
+4. Reinforcement Learning:
+   1. Multi-arm Bandit in portfolio selection
+   2. Q-learning
    
-4. Nature Language Processing:
+   
+5. Nature Language Processing:
+   1. Financial sentiment analysis
