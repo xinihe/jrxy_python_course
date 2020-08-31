@@ -20,6 +20,9 @@ If you have any query or would like to contribute, I would be very happy to hear
 
 ### Tentative Curriculum
 
+
+#### Part I
+
 0. First Talk: What you need to prepare ([slide](First_Talk.md))
 
 `Preliminary Session` 
@@ -40,6 +43,16 @@ If you have any query or would like to contribute, I would be very happy to hear
 3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, candle chart, etc ([slide and code](/BasicSession/time_series_learn.ipynb))
 4. Statistics Tests ([slide and code](/BasicSession/statistics_learn.ipynb))
 5. Nature Language Processing:  Financial sentiment analysis ([slide and code](/BasicSession/nlp_learn.ipynb))
+
+
+#### Part II
+
+`Case Study`
+
+1. Bond Pricing
+
+2. Porfolio Management
+
 
 `ML Session`
 
