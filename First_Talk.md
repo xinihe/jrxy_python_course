@@ -15,7 +15,7 @@
      下载使用：
     如果你嫌官网下载太慢,这里建议大家使用[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)，找到对应的anaconda版本和操作系统即可。
     
-    >注意：建议大家下载稳定版本，最新版本可能存在BUG，Anaconda3-5.3.1版本就比较稳定。
+    >注意：建议大家下载稳定版本，最新版本可能存在BUG，Anaconda3-5.3.1版本就比较稳定。百度网盘[Anaconda3-5.3.1链接](https://pan.baidu.com/s/1bhV5orBuYGxtrUb8vXQ9Rg)提取码 pq7x
 
     下载后按提示安装就可以了。
 
@@ -202,7 +202,9 @@ MariaDB是MySQL的一个分支，其使用方法和MySQL基本一致。百度百
 #### MariaDB下载 
 MariaDB可以在多种平台上使用，Windows平台的下载版本 MariaDB 10.2.14 稳定版，发布时间2018-03-27
 
-下载地址为：[64位](https://downloads.mariadb.org/interstitial/mariadb-10.2.14/winx64-packages/mariadb-10.2.14-winx64.msi/from/http%3A//mirrors.tuna.tsinghua.edu.cn/mariadb/) | [32位](https://downloads.mariadb.org/interstitial/mariadb-10.2.14/win32-packages/mariadb-10.2.14-win32.msi/from/http%3A//mirrors.tuna.tsinghua.edu.cn/mariadb/) （32位可以在百度网盘[下载](https://pan.baidu.com/s/1Q-etGpyKBkdoDdu8eoZVBA) 密码：bpyc）
+~~下载地址为：[64位](https://downloads.mariadb.org/interstitial/mariadb-10.2.14/winx64-packages/mariadb-10.2.14-winx64.msi/from/http%3A//mirrors.tuna.tsinghua.edu.cn/mariadb/) | [32位](https://downloads.mariadb.org/interstitial/mariadb-10.2.14/win32-packages/mariadb-10.2.14-win32.msi/from/http%3A//mirrors.tuna.tsinghua.edu.cn/mariadb/) （32位可以在百度网盘[下载](https://pan.baidu.com/s/1Q-etGpyKBkdoDdu8eoZVBA) 密码：bpyc）~~
+
+中科大的镜像宕机了，建议大家使用官网[链接](https://mariadb.org/download/)，可以在里面选择镜像，建议可以选择清华的。32位或者64位请按照需要。
 
 安装MariaDB时候需要设置，MariaDB会提示输入root用户的口令，**请务必记清楚** （否则貌似需要重新安装才可以调整口令，另外my.ini文件在所有程序 -> MariaDB 里面）。在Windows上，安装时请选择UTF-8编码，以便正确地处理中文。在安装过程中，其他端口的选择都选择默认3306，主机名称 localhost。
 
