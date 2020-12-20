@@ -38,11 +38,12 @@ If you have any query or would like to contribute, I would be very happy to hear
 
 `Program Session`
 
-1. Web Crawler I:  Financial News from [雪球](https://xueqiu.com/)   ([slide and code](/ProgramSession/news_learn.ipynb))
-2. Web Crawler II:  Daily stock price from [网易财经](https://money.163.com/)  ([slide and code](/ProgramSession/stockprice_learn.ipynb))
-3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, candle chart, etc ([slide and code](/ProgramSession/time_series_learn.ipynb))
-4. Statistics Tests ([slide and code](/ProgramSession/statistics_learn.ipynb))
-5. Nature Language Processing:  Financial sentiment analysis ([slide and code](/ProgramSession/nlp_learn.ipynb))
+1. Web Crawler I:  Financial News from [雪球](https://xueqiu.com/)   ([slide and code](/ProgramSession/spider01_learn.ipynb))
+2. Web Crawler II:  Daily stock price from [网易财经](https://money.163.com/)  ([slide and code](/ProgramSession/spider02_learn.ipynb))
+3. Time series basic: Return, mean, variance, correlation of stock prices, visualization, etc ([slide and code](/ProgramSession/time_series_learn.ipynb))
+4. Nature Language Processing:  Financial sentiment analysis ([slide and code](/ProgramSession/nlp_learn.ipynb))
+5. Quantative analysis: Sharpe ratio, Information ratio, Maxmium Drawnback, etc ([slide and code](/ProgramSession/quant_learn.ipynb))
+6. Statistics Tests: T test, Chi Square test, OLS ([slide and code](/ProgramSession/statistics_learn.ipynb))
 
 
 #### Part II
