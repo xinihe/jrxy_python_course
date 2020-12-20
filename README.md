@@ -16,14 +16,12 @@ If you have any query or would like to contribute, I would be very happy to hear
 + Tushare  (http://www.tushare.org or https://tushare.pro/)
 + IEX Finance  (https://pypi.org/project/iexfinance/)
 
-
-
 ### Tentative Curriculum
 
 
 #### Part I
 
-0. First Talk: What you need to prepare ([slide](First_Talk.md))
+0. First Talk: What you need to prepare - Very important ([slide](First_Talk.md))
 
 `Preliminary Session` 
 
