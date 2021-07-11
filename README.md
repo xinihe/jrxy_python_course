@@ -50,7 +50,7 @@ If you have any query or would like to contribute, I would be very happy to hear
 
 1. Bond Pricing
 
-2. Porfolio Management
+2. Porfolio Management ([slide and code](https://github.com/xinihe/jrxy_portfolio_management))
 
 
 `ML Session`
@@ -67,9 +67,9 @@ If you have any query or would like to contribute, I would be very happy to hear
    
  
 3. Supervised Learning:
-   1. Naive Bayes Classifier
+   1. Naive Bayes Classifier  ([slide and code]())
    2. Decision Tree (Find the best indicator)
-   3. K-nearest neighbor
+   3. K-nearest neighbor 
 
 
 4. Reinforcement Learning:
