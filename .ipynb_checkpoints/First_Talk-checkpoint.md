@@ -83,7 +83,24 @@
     - 更多插件支持
     
     JupyterLab 目前的版本是1.0版本，如果你安装的是早先的Anaconda，你的JupyterLab版本可能过早，建议你可以使用 pip install jupyterlab --upgrade 来完成升级。
+    
+    **关于启动目录的问题**
+    
+    如果clone的目录并不是在JupyterLab （或者是Jupyter Notebook）的默认启动目录，每次我们打开JupyterLab时，在弹出的浏览器界面上是系统默认的文件位置（工作路径），那么我们该如何修改JupyterLab默认的工作路径呢？
+    
+    1. 在cmd中输入命令使Jupyter产生配置文件：Jupyter_notebook_config.py 
+    
+    > jupyter notebook --generate-config
+    
+    2. 通过提示的路径找到刚才生成的配置文件
+    
+    3. 用记事本打开此配置文档，并用搜索（Ctrl+F）找到如下字段：
+    
+    > #c.NotebookApp.notebook_dir =
 
+    4. 在后面的引号“”中输入想修改为的默认工作路径，删除前面的#，保存文件
+    
+    5. 如果是Notebook，可以修改Jupyter Notebook的快捷方式，删掉目标中的%USERPROFILE%并在后面添加上刚才设置好的默认工作路径
 
 
 ### 个人推荐
