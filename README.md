@@ -77,18 +77,20 @@ If you have any query or would like to contribute, I would be very happy to hear
 
 `ML Session`
 
+0. Introducation ([slide and code](/AdvancedSession/MachineLearningBasic.md))
+
 1. Basic
-   1. Learning Regression
+   1. Learning Regression (LASSO and Ridge)
    2. Logistic Regression
    
 2. Unsupervised Learning:
-   1. K-means Clustering -- feature detecting
+   1. K-means Clustering -- feature detecting ([slide and code](/AdvancedSession/k-means.ipynb))
    2. Genetic Algorithm -- early warning
    3. Self-Organizing Map 
    
 3. Supervised Learning:
    1. Naive Bayes Classifier  ([slide and code](/MLSession/bayes_learn.ipynb))
-   2. Decision Tree (Find the best indicator)
+   2. Decision Tree (Find the best indicator) ([slide and code](/AdvancedSession/decision_tree.ipynb))
    3. K-nearest neighbor 
 
 
@@ -103,4 +105,6 @@ If you have any query or would like to contribute, I would be very happy to hear
 
 #### Exam （Independent Work）
 
+1. exam 2020 ([link](/Exam/python_finance_2020.md))
+2. exam 2021 ([link](/Exam/python_finance_2021.ipynb))
 
